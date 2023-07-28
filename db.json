@@ -1,0 +1,114 @@
+{
+    "videos": [
+      {
+        "id": 1,
+        "category": "Nature",
+        "title": "Most beautiful birds ",
+        "url": "https://youtu.be/7PIji8OubXU",
+        "coverImg": "https://images.unsplash.com/photo-1444464666168-49d633b86797?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "author": "Natureholic",
+        "avatarImg": "https://images.unsplash.com/photo-1551085254-e96b210db58a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 2,
+        "category": "Nature",
+        "title": "Birds of Brasil",
+        "url": "https://youtu.be/37cjLl07t5w",
+        "coverImg": "https://i.ytimg.com/vi/37cjLl07t5w/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJ_3HBlH9tJGUDLYzAt2ATKbcLVw",
+        "author": "Natureholic",
+        "avatarImg": "https://images.unsplash.com/photo-1555169062-013468b47731?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 3,
+        "category": "Nature",
+        "title": "Wildvögel - 8K (60 fps) Ultra",
+        "url": "https://youtu.be/dXV4qzQ0ZYs",
+        "coverImg": "https://i.ytimg.com/vi/dXV4qzQ0ZYs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCqNLhKk93RMsFpyYiKGkjf3HmD_A",
+        "author": "Natureholic",
+        "avatarImg": "https://images.unsplash.com/photo-1551085254-e96b210db58a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 4,
+        "category": "Nature",
+        
+        "title": "Bali, Indonesia",
+        "url": "https://youtu.be/PSKnO9jvkig",
+        "coverImg": "https://i.ytimg.com/vi/PSKnO9jvkig/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBYK0o8aQwkEZMwrXWXaXt_CW-A3w",
+        "author": "Natureholic",
+        "avatarImg": "https://images.unsplash.com/photo-1551085254-e96b210db58a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 5,
+        "category": "Nature",
+        "title": "Amazing Nature",
+        "url": "https://youtu.be/BHACKCNDMW8",
+        "coverImg": "https://i.ytimg.com/vi/BHACKCNDMW8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2R7-Gty5KB4JVCyM6Dd4Xd4DXeQ",
+        "author": "Natureholic",
+        "avatarImg": "https://images.unsplash.com/photo-1555169062-013468b47731?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 6,
+        "category": "Nature",
+        "title": "Papagaien",
+        "url": "https://youtu.be/28OKf2ZWUxM",
+        "coverImg": "https://i.ytimg.com/vi/28OKf2ZWUxM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAMeAmipXkb8I5tDfRlHp3nL-6JoQ",
+        "author": "Natureholic",
+        "avatarImg": "https://images.unsplash.com/photo-1551085254-e96b210db58a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 7,
+        "category": "Nature",
+        "title": "Das Insekt - 8K (60 fps) ",
+        "url": "https://youtu.be/7PIji8OubXU",
+        "coverImg": "https://images.unsplash.com/photo-1444464666168-49d633b86797?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "author": "Natureholic",
+        "avatarImg": "https://images.unsplash.com/photo-1551085254-e96b210db58a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 8,
+        "category": "Nature",
+        "title": "Birds of Brasil",
+        "url": "https://www.youtube.com/live/-I9m5RhmdMM?feature=share",
+        "coverImg": "https://i.ytimg.com/vi/-I9m5RhmdMM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAeCQnyEQMkHPPTQCyHNaxOv_Sovw",
+        "author": "Natureholic",
+        "avatarImg": "https://images.unsplash.com/photo-1555169062-013468b47731?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 9,
+        "category": "Nature",
+        "title": "Wildvögel - 8K (60 fps) Ultra HD",
+        "url": "https://youtu.be/dXV4qzQ0ZYs",
+        "coverImg": "https://i.ytimg.com/vi/dXV4qzQ0ZYs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCqNLhKk93RMsFpyYiKGkjf3HmD_A",
+        "author": "Natureholic",
+        "avatarImg": "https://images.unsplash.com/photo-1551085254-e96b210db58a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 10,
+        "category": "Nature",
+        
+        "title": "Beautiful birds in Amazon area",
+        "url": "https://youtu.be/7PIji8OubXU",
+        "coverImg": "https://images.unsplash.com/photo-1444464666168-49d633b86797?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "author": "Natureholic",
+        "avatarImg": "https://images.unsplash.com/photo-1551085254-e96b210db58a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 11,
+        "category": "Nature",
+        "title": "8H A Beautiful Day in Nature",
+        "url": "https://youtu.be/k-ZXEDMEaew",
+        "coverImg": "https://i.ytimg.com/vi/k-ZXEDMEaew/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBdeCmLrsucNuWWveaFWCyKx6IFKw",
+        "author": "Natureholic",
+        "avatarImg": "https://images.unsplash.com/photo-1555169062-013468b47731?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 12,
+        "category": "Nature",
+        "title": "Papagaien",
+        "url": "https://youtu.be/7PIji8OubXU",
+        "coverImg": "https://images.unsplash.com/photo-1444464666168-49d633b86797?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "author": "Natureholic",
+        "avatarImg": "https://images.unsplash.com/photo-1551085254-e96b210db58a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      }
+    ]
+  }
