@@ -2,10 +2,12 @@ import './App.css';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { Box, Button } from '@mui/material';
-import Feed from './components/Feed/Feed';
+import Feed from './pages/HomePage/HomePage';
 import Header from './components/Header/Header';
 import { useState } from 'react';
-import VideoDetail from './components/VideoDetail/VideoDetail';
+import VideoDetail from './pages/VideoDetail/VideoDetail';
+import MyCannels from './pages/MyCannels/MyCannels';
+
 
 
 
@@ -14,6 +16,7 @@ function App() {
 
   const [open, setOpen] = useState(false);
   const [activeBtn, setActiveBtn] = useState('All')
+
   const handlleOpen = () =>{
       setOpen(!open);
   }
@@ -26,6 +29,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Feed open = {open} activeBtn= {activeBtn} setActiveBtn={setActiveBtn}/>}/>
           <Route path='/video/:id' element={<VideoDetail/>}/>
+          <Route path='/my_channels' element= {<MyCannels/>}/> 
         </Routes>
       </Box>
       

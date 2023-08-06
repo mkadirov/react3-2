@@ -1,32 +1,23 @@
 import HomeIcon from '@mui/icons-material/Home';
 import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
-import PlayLessonIcon from '@mui/icons-material/PlayLesson';
-import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import HistoryIcon from '@mui/icons-material/History';
 import SlideshowIcon from '@mui/icons-material/Slideshow';
-import WatchLaterIcon from '@mui/icons-material/WatchLater';
 import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt';
 
 export const navList = [
     {
         icon: <HomeIcon/>,
-        title: 'Home'
-    },
-    {
-        icon: <PlayLessonIcon/>,
-        title: 'Shorts'
+        title: 'Home',
+        link: '/'
     },
     {
         icon: <SubscriptionsIcon/>,
-        title: 'Abos'
+        title: 'Channels',
+        link: 'my_channels'
     }
 ] 
 
 export const NavList2 = [
-    {
-        icon: <PlayCircleOutlineIcon/>,
-        title: 'Media'
-    },
     {
         icon: <HistoryIcon/>,
         title: 'History'
@@ -34,10 +25,6 @@ export const NavList2 = [
     {
         icon: <SlideshowIcon/>,
         title: 'My Videos'
-    },
-    {
-        icon: <WatchLaterIcon/>,
-        title: 'Watch later'
     },
     {
         icon: <ThumbUpOffAltIcon/>,
@@ -49,7 +36,7 @@ export const videoList = [
     {
         id: 1,
         title: 'Nature',
-        url: 'https://images.unsplash.com/photo-1690230677090-107f8f0ea512?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+        url: 'https://images.unsplash.com/photo-1690230677090-107f8f0ea512?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
     },
     {
         id: 2,

@@ -3,14 +3,14 @@ import { Box, Button, Card, CardContent, CardMedia, Stack, Typography, colors, s
 import { Link } from 'react-router-dom'
 
 function VideoCard({item}) {
+
   return (
     
-        <Card sx={{ maxWidth: 430 , pb: 3}}>
+    <Card sx={{ maxWidth: 430 , pb: 3}}>
        <Box>
        <CardMedia
             sx={{ height: 200 }}
-            image={item.coverImg}
-            
+            image={item.coverImg}  
         />
 
         <CardContent>
@@ -23,7 +23,7 @@ function VideoCard({item}) {
             </Typography>
         </CardContent>
        </Box>
-      </Card>
+    </Card>
    
   )
 }
