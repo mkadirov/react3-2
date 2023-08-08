@@ -137,6 +137,30 @@
       "videoId": "3",
       "text": "uchinchi id",
       "id": 3
+    },
+    {
+      "userId": 2,
+      "videoId": "2",
+      "text": "sdfgsdgdsfghsdfg",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "videoId": "3",
+      "text": "asdasd",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "videoId": "3",
+      "text": "comment",
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "videoId": "2",
+      "text": "sewfrwesrfwere",
+      "id": 7
     }
   ],
   "video_likes": [
@@ -155,7 +179,7 @@
     },
     {
       "userId": 2,
-      "authorId": 3,
+      "authorId": 2,
       "id": 2
     }
   ]

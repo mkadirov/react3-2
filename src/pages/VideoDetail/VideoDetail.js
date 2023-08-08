@@ -11,6 +11,8 @@ import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import { addComment, deleteFollower, deleteVideoLike, editLike, getAuthor, getComments, 
     getFollowers, getVideoLikes, getVideos, postFollower, postVideoLike } from '../../api';
 import { deepPurple } from '@mui/material/colors';
+import ErrorBoundry from '../../components/ErrorBoundry/ErrorBoundry';
+import CommentBox from '../../components/CommentBox/CommentBox';
 
 function VideoDetail() {
    
@@ -28,6 +30,7 @@ function VideoDetail() {
     useEffect( () => {
         async function fetchData() {
             const res = await getVideos();
+            
             if(res.success) {
                 const videoById = res.data.find(item => item.id == id)
                 setVideo(videoById);
@@ -39,6 +42,7 @@ function VideoDetail() {
 
     useEffect(() => {
         async function fetchData() {
+            
             if(Object.keys(video).length !== 0) {
                 const res = await getAuthor(video.authorId);
                 if(res.success) {
@@ -53,6 +57,7 @@ function VideoDetail() {
     useEffect(() => {
         async function fetchData() {
             const res = await getFollowers();
+            
             if(res.success) {
 
                 const result = res.data.find(element => element.authorId == author.id && element.userId==2);
@@ -69,6 +74,7 @@ function VideoDetail() {
 
     useEffect(() => {
         async function fetchData() {
+            
             const res = await getVideoLikes();
             if(res.success) {
                 const result = res.data.find(element => element.videoId== id && element.userId == 2);
@@ -85,6 +91,7 @@ function VideoDetail() {
 
     useEffect(() => {
         async function fetchData() {
+           
             const res = await getComments();
             if(res.success) {
                 const list = res.data.filter(item => item.videoId == id)
@@ -147,12 +154,17 @@ function VideoDetail() {
         <Grid container spacing={4}>
             <Grid item xs={12} md={8} >
                 <Box sx={{width: '100%', top: '110px'}}>
-                <ReactPlayer
-                width='100%'
-                height='60vh'
-                url = {video.url}
-                controls={true}
-                />
+
+                <ErrorBoundry>
+                    <ReactPlayer
+                    width='100%'
+                    height='60vh'
+                    url = {video.url}
+                    controls={true}
+                    />
+                </ErrorBoundry>
+
+                
                 <Typography variant='h5' marginY={2}>
                     {video.title}
                 </Typography>
@@ -212,7 +224,6 @@ function VideoDetail() {
                                 (likeObj.like >= 0)? (<IconButton onClick= {() => {
                                    addLike(-1)
                                   }}>
-                                
                                     <ThumbDownOffAltIcon />
                             </IconButton>) : (<IconButton onClick={() => {
                                     deleteLike();
@@ -220,11 +231,10 @@ function VideoDetail() {
                                     <ThumbDownIcon />
                             </IconButton>)
                             }
-                            
-                            
                         </Box>
                     </Box>
 
+                    
                     <Box>
                     <Box className = 'commentBox' marginTop={4} display='flex' gap={2} alignItems='center'>
                        <Avatar sx={{ bgcolor: deepPurple[500] }}>U2</Avatar>
@@ -245,45 +255,27 @@ function VideoDetail() {
                         </Button>
                     </Box>
 
-                      {
-                        commentList.map(item => {
-                            return(
-                                <Box marginBottom={2} key={item.id} display='flex' gap={2}>
-                                    <Avatar sx={{ bgcolor: deepPurple[500] }}>U2</Avatar>
-                                    <Box >
-                                        <Typography fontSize={12}>
-                                          @user2
-                                        </Typography>
-                                        <Typography>
-                                         {item.text}
-                                        </Typography>
-                                    </Box>
-                                </Box>
-                            )
-                        })
-                      }
-                    </Box>
-                </Box>
+                    <ErrorBoundry>
+                       <CommentBox list= {commentList}/>
+                    </ErrorBoundry>
 
-               
+                    </Box>
+                    
+                </Box>
             </Grid>
             <Grid item xs={12} md={4} >
-                
                 {
                     videos.map((item, idx) => {
                         return(
                             
-                               <Box key={item.id} marginBottom={2}>
+                            <Box key={item.id} marginBottom={2}>
                                 <Link  to={`/video/${item.id}`}>
-                                  
                                   <VideoCard  item={item} />
-                                
                                 </Link>
-                               </Box>
+                            </Box>
                         )
                     })
                 }
-               
             </Grid>
         </Grid>
     </Box>
